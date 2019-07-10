@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TheStorytellingProject</string>
+
+    <string name="home_button">Home Button</string>
+
+    <string name="story_filemon">Filemon Mamon</string>
+    <string name="story_madyik_silya">Madyik Silya</string>
+    <string name="story_mamemimumu">MaMeMiMuMu</string>
+    <string name="story_mister_beetles">Mr Beetles</string>
+    <string name="story_pambihirang_sumbrero">Pambihirang Sumbrero</string>
+
+    <string name="story_katambal">Katambal</string>
+    <string name="story_mapanuring_mata">Mapanuring Mata</string>
+    <string name="story_mapanuring_isip">Mapanuring Isip</string>
+    <string name="story_pakikisama">Pakikisama</string>
+</resources>

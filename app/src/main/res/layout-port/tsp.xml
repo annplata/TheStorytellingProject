@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_story_home"
+    tools:context="ph.upuo.thestorytellingproject.TSP">
+
+    <ImageButton
+        android:id="@+id/btnFilemonMamon"
+        android:layout_width="97dp"
+        android:layout_height="81dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/story_filemon"
+        android:onClick="changeActivity"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.339"
+        app:srcCompat="@drawable/ic_story_filemon" />
+
+    <ImageButton
+        android:id="@+id/btnPambihirangSumbrero"
+        android:layout_width="77dp"
+        android:layout_height="73dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/story_pambihirang_sumbrero"
+        android:onClick="changeActivity"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336"
+        app:srcCompat="@drawable/ic_pambihirang_sumbrero" />
+
+    <ImageButton
+        android:id="@+id/btnMadyikSilya"
+        android:layout_width="78dp"
+        android:layout_height="77dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/story_madyik_silya"
+        android:onClick="changeActivity"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587"
+        app:srcCompat="@drawable/ic_story_ang_madyik_silya" />
+
+    <ImageButton
+        android:id="@+id/btnMamemimumu"
+        android:layout_width="71dp"
+        android:layout_height="89dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/story_mamemimumu"
+        android:onClick="changeActivity"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855"
+        app:srcCompat="@drawable/ic_mamemimumu" />
+
+    <ImageButton
+        android:id="@+id/btnMisterBeetle"
+        android:layout_width="71dp"
+        android:layout_height="75dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/story_mister_beetles"
+        android:onClick="changeActivity"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84"
+        app:srcCompat="@drawable/ic_mister_beetle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
